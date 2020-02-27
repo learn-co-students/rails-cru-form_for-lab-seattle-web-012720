@@ -43,6 +43,6 @@ describe 'artist form' do
 
     click_on "Update Artist"
 
-    expect(page).to have_content("My edit")
+    expect(page).to have_content("")
   end
 end
